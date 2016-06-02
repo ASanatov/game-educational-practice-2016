@@ -1,0 +1,62 @@
+body {
+    border: none;
+    background-color: 	#d2feff;
+    color: #000000;
+    font-size: 16px;
+    text-align: center;
+}
+.wrapper {
+    width: 600px;
+    margin: 0 auto;
+    font-weight: bold;
+    position: relative;    
+}
+#cmplxty li {
+    background-color: #34cbb7;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    padding: 6px 8px;
+}
+#gtable {
+    min-width: 440px;
+    margin-bottom: 50px;
+}
+.cell {
+    background-color: #009f50;
+    display: inline-block;
+    border: 2px solid none;
+    margin: 2px;
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+    font-size: 22px;
+    line-height: 38px;
+}
+.safe {
+    background-color: #5cacee;
+    color: #ffffff;
+}
+
+#new-game {
+    width: 420px;
+   
+    color: #cb3448;
+    font-size: 38px;
+    padding: 15px 0;
+    cursor: pointer;
+	display: inline-block;
+}
+#feedback {
+    display: inline-block;
+    font-size: 30px;
+    padding-top: 4px;
+    right: 5px;
+	top: 100px;
+    position:absolute;
+}
+#title {
+    margin-top: 10px;
+    font-size: 50px;
+    color: #ff9391;
+}
